@@ -32,7 +32,9 @@ function Benefits() {
                     height={48}
                     alt={item.title}
                   />
-                  <p>Explore more</p>
+                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider cursor-pointer">
+                    Explore more
+                  </p>
                   <Arrow />
                 </div>
               </div>
