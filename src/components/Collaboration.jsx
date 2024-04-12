@@ -1,7 +1,7 @@
 import Section from "./Section";
 
 function Collaboration() {
-  return <Section>Collaboration</Section>;
+  return <Section crosses>Collaboration</Section>;
 }
 
 export default Collaboration;
