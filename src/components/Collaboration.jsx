@@ -1,5 +1,7 @@
+import Section from "./Section";
+
 function Collaboration() {
-  return <div>collab</div>;
+  return <Section>Collaboration</Section>;
 }
 
 export default Collaboration;
