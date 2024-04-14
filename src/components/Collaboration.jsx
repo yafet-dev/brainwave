@@ -1,3 +1,4 @@
+import { collabContent } from "../constants";
 import Section from "./Section";
 
 function Collaboration() {
@@ -8,7 +9,11 @@ function Collaboration() {
           <h2 className="h2 mb-4 md:mb-8">
             AI Chat App for seamless collaboration
           </h2>
-          <ul className="max-w-[22rem] mb-10 md:mb-14"></ul>
+          <ul className="max-w-[22rem] mb-10 md:mb-14">
+            {collabContent.map((item) => (
+              <li className="mb-3"></li>
+            ))}
+          </ul>
         </div>
       </div>
     </Section>
