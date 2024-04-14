@@ -11,7 +11,7 @@ function Collaboration() {
           </h2>
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
-              <li className="mb-3"></li>
+              <li className="mb-3" key={item.id}></li>
             ))}
           </ul>
         </div>
