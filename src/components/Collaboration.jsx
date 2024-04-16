@@ -1,3 +1,4 @@
+import { check } from "../assets";
 import { collabContent } from "../constants";
 import Section from "./Section";
 
@@ -13,7 +14,7 @@ function Collaboration() {
             {collabContent.map((item) => (
               <li className="mb-3" key={item.id}>
                 <div className="flex items-center">
-                  <img />
+                  <img src={check} />
                 </div>
               </li>
             ))}
