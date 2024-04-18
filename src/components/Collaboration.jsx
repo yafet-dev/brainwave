@@ -14,7 +14,8 @@ function Collaboration() {
             {collabContent.map((item) => (
               <li className="mb-3" key={item.id}>
                 <div className="flex items-center">
-                  <img src={check} />
+                  <img src={check} width={24} height={24} />
+                  <h6>{item.title}</h6>
                 </div>
               </li>
             ))}
