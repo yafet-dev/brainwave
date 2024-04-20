@@ -25,7 +25,12 @@ function Benefits() {
                 <h5 className="h2 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center">
-                  <img src={item.iconUrl} width={48} height={48} />
+                  <img
+                    src={item.iconUrl}
+                    width={48}
+                    height={48}
+                    alt={item.title}
+                  />
                 </div>
               </div>
             </div>
