@@ -4,7 +4,9 @@ function Collaboration() {
   return (
     <Section crosses>
       <div className="container lg:flex">
-        <div></div>
+        <div className="max-w-[25rem]">
+          <h2>AI Chat App for seamless collaboration</h2>
+        </div>
       </div>
     </Section>
   );
