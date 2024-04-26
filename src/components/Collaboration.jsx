@@ -40,7 +40,10 @@ function Collaboration() {
             border-n-6 rounded-full"
             >
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
-                <img src={brainwaveSymbol} width={48} />
+                <div className="flex items-center justify-center w-full">
+                  {" "}
+                  <img src={brainwaveSymbol} width={48} />
+                </div>
               </div>
             </div>
           </div>
