@@ -47,7 +47,7 @@ function Collaboration() {
               </div>
             </div>
 
-            <ul>{collabApps}</ul>
+            <ul>{collabApps.map((app, index))}</ul>
           </div>
         </div>
       </div>
