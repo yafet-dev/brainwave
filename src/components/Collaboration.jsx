@@ -49,7 +49,7 @@ function Collaboration() {
 
             <ul>
               {collabApps.map((app, index) => (
-                <li key={app.id}>
+                <li key={app.id} className={`absolute`}>
                   <div>
                     <img src={app.icon} />
                   </div>
