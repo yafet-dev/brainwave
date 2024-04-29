@@ -1,5 +1,5 @@
 import { brainwaveSymbol, check } from "../assets";
-import { collabContent, collabText } from "../constants";
+import { collabApps, collabContent, collabText } from "../constants";
 import Section from "./Section";
 import Button from "./Button";
 function Collaboration() {
@@ -46,6 +46,8 @@ function Collaboration() {
                 </div>
               </div>
             </div>
+
+            <ul>{collabApps}</ul>
           </div>
         </div>
       </div>
