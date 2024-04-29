@@ -51,7 +51,7 @@ function Collaboration() {
               {collabApps.map((app, index) => (
                 <li key={app.id}>
                   <div>
-                    <img />
+                    <img src={app.icon} />
                   </div>
                 </li>
               ))}
