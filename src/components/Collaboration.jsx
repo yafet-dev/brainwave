@@ -47,7 +47,15 @@ function Collaboration() {
               </div>
             </div>
 
-            <ul>{collabApps.map((app, index))}</ul>
+            <ul>
+              {collabApps.map((app, index) => (
+                <li key={app.id}>
+                  <div>
+                    <img />
+                  </div>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
