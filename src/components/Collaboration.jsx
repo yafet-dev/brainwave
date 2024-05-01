@@ -49,7 +49,10 @@ function Collaboration() {
 
             <ul>
               {collabApps.map((app, index) => (
-                <li key={app.id} className={`absolute top-0 left-1/2 h-1/2`}>
+                <li
+                  key={app.id}
+                  className={`absolute top-0 left-1/2 h-1/2 -ml`}
+                >
                   <div>
                     <img src={app.icon} />
                   </div>
