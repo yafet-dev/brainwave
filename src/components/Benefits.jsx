@@ -13,7 +13,14 @@ function Benefits() {
 
         <div className="flex flex-wrap gap-10">
           {benefits.map((item) => (
-            <div key={item.id}>
+            <div
+              key={item.id}
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%]
+              md:max-w-[24rem]"
+              style={{
+                backgroundImage: `url(${item.backgroundUrl})`,
+              }}
+            >
               <div>
                 <h5>{item.title}</h5>
               </div>
