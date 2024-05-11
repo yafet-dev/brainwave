@@ -1,5 +1,6 @@
 import Section from "./Section";
 import Heading from "./Heading";
+import { benefits } from "../constants";
 
 function Benefits() {
   return (
@@ -10,7 +11,15 @@ function Benefits() {
           title={"chat smarter not harder"}
         />
 
-        <div className="flex flex-wrap gap-10"></div>
+        <div className="flex flex-wrap gap-10">
+          {benefits.map((item) => (
+            <div key={item.id}>
+              <div>
+                <h5>{item.title}</h5>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </Section>
   );
