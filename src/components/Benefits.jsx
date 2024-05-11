@@ -10,7 +10,7 @@ function Benefits() {
           title={"chat smarter not harder"}
         />
 
-        <div className="flex flex-wrap"></div>
+        <div className="flex flex-wrap gap-10"></div>
       </div>
     </Section>
   );
