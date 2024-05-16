@@ -55,7 +55,13 @@ function Collaboration() {
                     rotate-${index * 45}`}
                 >
                   <div>
-                    <img src={app.icon} />
+                    <img
+                      src={app.icon}
+                      className="m-auto"
+                      width={app.width}
+                      height={app.height}
+                      alt={app.title}
+                    />
                   </div>
                 </li>
               ))}
