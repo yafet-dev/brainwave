@@ -21,7 +21,7 @@ function Benefits() {
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
             >
-              <div>
+              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5>{item.title}</h5>
               </div>
             </div>
