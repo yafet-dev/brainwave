@@ -22,7 +22,7 @@ function Benefits() {
               }}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                <h5 className="h2">{item.title}</h5>
+                <h5 className="h2 mb">{item.title}</h5>
               </div>
             </div>
           ))}
