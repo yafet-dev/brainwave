@@ -1,5 +1,7 @@
+import Section from "./Section";
+
 function Hero() {
-  return <div>Hero</div>;
+  return <Section>section</Section>;
 }
 
 export default Hero;
