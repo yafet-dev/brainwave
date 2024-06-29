@@ -29,6 +29,14 @@ function Hero() {
             with Brainwave, the open AI chat app.
           </p>
           <Button>Get started</Button>
+
+          <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
+            <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
+              <div className="relative bg-n-8 rounded-[1rem]">
+                <div className="h-[1.4rem]"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Section>
