@@ -7,7 +7,7 @@ function App() {
       <ButtonGradient />
       <div className="pt-[4.75rem] overflow-hidden lg:pt-[5.25rem]">
         <Button className="mt-10" href="#login">
-          Loggin
+          Login
         </Button>
       </div>
     </>
