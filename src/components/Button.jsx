@@ -9,7 +9,13 @@ const Button = ({ className, href, onClick, children, px, white }) => {
       {ButtonSvg(white)}
     </button>
   );
-  return renderButton();
+
+  const renderLink = () => (
+    <a href={href} className={classes}>
+      <span>{children}</span>
+    </a>
+  );
+  return href ? renderLink() : renderButton();
 };
 
 export default Button;

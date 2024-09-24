@@ -6,9 +6,7 @@ function App() {
       <div className="text-5xl text-center ">working</div>
       <ButtonGradient />
       <div className="pt-[4.75rem] overflow-hidden lg:pt-[5.25rem]">
-        <Button className="mt-10" href="#login">
-          Login
-        </Button>
+        <Button>Login</Button>
       </div>
     </>
   );
