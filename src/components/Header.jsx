@@ -8,7 +8,7 @@ import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
 function Header() {
   const pathname = useLocation();
-  useState[(openNavigation, setOpenNavigation)] = useState(false);
+  const [openNavigation, setOpenNavigation] = useState(false);
 
   return (
     <div
