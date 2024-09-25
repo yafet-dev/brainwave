@@ -8,7 +8,15 @@ import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
 function Header() {
   const pathname = useLocation();
-  const [openNavigation, setOpenNavigation] = useState(true);
+  const [openNavigation, setOpenNavigation] = useState(false);
+
+  const toggleNavigation = () => {
+    setOpenNavigation(!openNavigation);
+
+    const handleClick = () => {
+      setOpenNavigation(false);
+    };
+  };
 
   return (
     <div
@@ -54,6 +62,9 @@ function Header() {
         </a>
 
         <Button className="hidden lg:flex">Sign in</Button>
+        <Button className="lg:hidden ml-auto " onClick={toggleNavigation}>
+          <MenuSvg openNavigation={openNavigation} />
+        </Button>
       </div>
     </div>
   );
