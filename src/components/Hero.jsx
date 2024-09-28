@@ -10,7 +10,7 @@ function Hero() {
     >
       <div className="container relative">
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
-          <h1 className="h1 mb-6"></h1>
+          <h1 className="h1 mb-6">Explore the possibilities</h1>
         </div>
       </div>
     </Section>
