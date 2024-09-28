@@ -1,7 +1,6 @@
 import { brainwave } from "../assets";
 import { navigation } from "../constants/index";
-import { disablePageScroll, enablepageScroll } from "scroll-lock";
-
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { useLocation } from "react-router-dom";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -12,9 +11,16 @@ function Header() {
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
-    setOpenNavigation(!openNavigation);
+    if (openNavigation) {
+      setOpenNavigation(false);
+      enablePageScroll();
+    } else {
+      setOpenNavigation(true);
+    }
   };
   const handleClick = () => {
+    if (!openNavigation) return;
+    enablePageScroll();
     setOpenNavigation(false);
   };
 
