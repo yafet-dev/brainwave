@@ -1,5 +1,5 @@
 import Section from "./Section";
-import { curve } from "../assets/curve";
+import { curve } from "../assets/index";
 
 function Hero() {
   return (
@@ -13,7 +13,7 @@ function Hero() {
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
           <h1 className="h1 mb-6">
             Explore the possibilities of AI chatting with
-            <span>
+            <span className="inline-block relative">
               Brainwave
               <img src={curve} />
             </span>
