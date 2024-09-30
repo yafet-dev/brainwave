@@ -15,7 +15,7 @@ function Hero() {
             Explore the possibilities of AI chatting with
             <span className="inline-block relative">
               Brainwave
-              <img src={curve} />
+              <img src={curve} className="absolute top-full" />
             </span>
           </h1>
         </div>
