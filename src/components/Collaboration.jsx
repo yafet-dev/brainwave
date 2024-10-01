@@ -35,7 +35,10 @@ function Collaboration() {
             className="relative left-1/2 flex w-[22rem] aspect-square
            border border-n-6 rounded-full -translate-x-1/2 scale-75 md:scale-100"
           >
-            <div className="flex w-60"></div>
+            <div
+              className="flex w-60 aspect-square border m-auto
+            border-n-6 rounded-full"
+            ></div>
           </div>
         </div>
       </div>
