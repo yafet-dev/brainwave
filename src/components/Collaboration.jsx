@@ -26,7 +26,7 @@ function Collaboration() {
 
           <Button>Try it now</Button>
           <div className="lg:ml-auto xl:w-[38rem]">
-            <p>{collabText}</p>
+            <p className="body-2 mb-4 text-n-4">{collabText}</p>
           </div>
         </div>
       </div>
