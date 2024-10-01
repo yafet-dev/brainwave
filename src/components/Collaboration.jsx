@@ -1,4 +1,4 @@
-import { check } from "../assets";
+import { brainwaveSymbol, check } from "../assets";
 import { collabContent, collabText } from "../constants";
 import Section from "./Section";
 import Button from "./Button";
@@ -38,7 +38,11 @@ function Collaboration() {
             <div
               className="flex w-60 aspect-square border m-auto
             border-n-6 rounded-full"
-            ></div>
+            >
+              <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
+                <img src={brainwaveSymbol} width={48} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
